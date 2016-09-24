@@ -12,8 +12,14 @@ android {
         versionName "1.0"
     }
     buildTypes {
+        free{
+
+        }
+        paid{
+
+        }
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }

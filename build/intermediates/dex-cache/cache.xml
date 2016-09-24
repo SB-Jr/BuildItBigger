@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-7.3.0_a92efca7df42ba543700ca64a359c29b2a21ecfb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="a0ce76dfaccbfbd6c551ed2174280aaabe60fe47">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-7.3.0_3b7555228ca8fe508027a3d55a70face28acb7e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-7.3.0_2dc2a3f2df4a9d8f3d449e66da9d9802780402a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1_5d2f2bc8db5816c2618c0c03524c4acb00ab4c53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="3b4ff5c39dace8f3b4ab4cab8191785547a0815f">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-7.3.0_21a16cf57da89955f6065c6e482015b5dee45f2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="5ea948d825957be6c4358c48422bee60eef2d487">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-7.3.0_33281c490ce76e51a2490258b00650d1ea9bc97c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-7.3.0_d9f087d8168b30ba204e74b6f8691cc30b087bce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.1.1_2f4b2a3ab8d5c6cb0c0e6899252466c9a546f062.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="4f4fe3c23776540625f3c2844152a7510fddf9f1">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-7.3.0_65fd791eb648f12a8a676136d709e9b43773f26d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="3988694bf9d8186ff97ad5cdfa4ed88b5010fe08">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-7.3.0_1660a909fb2b5b39fb1ac5e39a51eac714d8fd31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="59652857a825fff0de62166fca1bc9553cc01abb">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-7.3.0_b8fd41bd771cef934f6dd2dd4825101ec44e16be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appstate-7.3.0_92c48d37b00c68b542f9a7e99a540fcdaf0afb99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/IMPFiles/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1_9d65c2a276239ca2285f1a9463e8b5fa8424f752.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-7.3.0_95a674a099ba1880c4df937749ad4c27bfc484a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="e5b9f5b0aa8dee788beb63d23832cb29ce771343">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-7.3.0_88835e26aaf489534bb7c704d8257bcd79edc71c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="0708ef60917bf94913fe9ef972a655b99462dca7">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-7.3.0_1914416e35b57df6aba3883f2f617f57d810d375.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-7.3.0_5fd8ca684ac1133a7a8da581875938f776dab886.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-7.3.0_279a71cc02eda12d05d3b6e71368da811193666a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="565a01f90f1529f73362707c4c185d0623a68782">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-7.3.0_2d36abf144150a84a80f5ab2fd6faf0071e63b82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-7.3.0_2e2ddce8a0f912d8a64bd9f4b4726f0b5a032a07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-7.3.0_e2d9d40c8a7fb3dd769aa52b80df4191d02794d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-7.3.0_ccd8054d0cac2098c1d363d3d38155ec17b39de1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.1.1_e59641c6b1a853451c108e8b102e40cc90906fa9.jar" />
+    </item>
+
+</items>

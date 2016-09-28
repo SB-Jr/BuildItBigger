@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/Build it Bigger.iml" filepath="$PROJECT_DIR$/Build it Bigger.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/jokers/jokers.iml" filepath="$PROJECT_DIR$/jokers/jokers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jokesBackend/jokesBackend.iml" filepath="$PROJECT_DIR$/jokesBackend/jokesBackend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jokesimporter/jokesimporter.iml" filepath="$PROJECT_DIR$/jokesimporter/jokesimporter.iml" />
     </modules>
   </component>
 </project>

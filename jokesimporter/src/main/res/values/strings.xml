@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JokesImporter</string>
+    <string name="button_fetch_joke">Make me Laugh</string>
+</resources>

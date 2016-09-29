@@ -23,18 +23,18 @@ import java.io.IOException;
 public class JokeFetcher extends AsyncTask<Object, Void, String> {
 
     private static MyApi apiService = null;
-    Context context;
-    TextView mJokeText;
-    ProgressBar mProgress;
-    private String joke;
-
+    private Context context;
+    private TextView mJokeText;
+    private ProgressBar mProgress;
 
     @Override
     protected String doInBackground(Object... params) {
 
-        context = (Context)params[0];
-        mJokeText = (TextView) params[1];
-        mProgress = (ProgressBar) params[2];
+        if(params.length==3) {
+            context = (Context) params[0];
+            mJokeText = (TextView) params[1];
+            mProgress = (ProgressBar) params[2];
+        }
         if(apiService==null) {
             MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(), new AndroidJsonFactory(), null)
                     .setRootUrl("http://10.0.3.2:8080/_ah/api/")
@@ -61,11 +61,10 @@ public class JokeFetcher extends AsyncTask<Object, Void, String> {
 
     @Override
     protected void onPostExecute(String s) {
-        mProgress.setVisibility(View.INVISIBLE);
-        mJokeText.setText(s);
+        if(mProgress!=null&&mJokeText!=null) {
+            mProgress.setVisibility(View.INVISIBLE);
+            mJokeText.setText(s);
+        }
         super.onPostExecute(s);
     }
-
-
-
 }

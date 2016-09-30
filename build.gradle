@@ -17,3 +17,23 @@ allprojects {
         jcenter()
     }
 }
+
+
+//task to automatically start the backend locally and test and shut it down
+task testAll(dependsOn: ":jokesBackend:appengineRun")<<{
+    /*print "started testing"
+    project(":jokesBackend").afterEvaluate {
+        jokesBackend->jokesBackend.extensions.appengine.daemon =true
+    }
+
+    dependsOn "test"
+
+    project(":jokesEngine:appengineStop")
+    doLast{
+        print "finished testing"
+    }*/
+    dependsOn "appengineRun"
+    dependsOn "test"
+    dependsOn "appengineStop"
+
+}

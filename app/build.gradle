@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.udacity.gradle.builditbigger"
-        minSdkVersion 10
+        minSdkVersion 14
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
@@ -19,20 +19,17 @@ android {
     }
 
     productFlavors {
-        paid{
-           // applicationId "com.udacity.gradle.builditbigger.paid"
-        }
-        free{
-           // applicationId "com.udacity.gradle.builditbigger.free"
-        }
+        paid{ }
+        free{ }
     }
 }
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    // Added for AdMob
+
+    freeCompile 'com.google.android.gms:play-services-ads:9.6.1'
+
     compile 'com.android.support:appcompat-v7:24.2.1'
-    freeCompile 'com.google.android.gms:play-services:9.6.1'
     compile 'com.google.code.findbugs:jsr305:2.0.1'
     compile project(path: ':jokesBackend', configuration: 'android-endpoints')
     compile project(path: ':jokers')

@@ -13,7 +13,7 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends ActionBarActivity implements AsyncTaskCompleteListener{
 
     InterstitialAd mInterstitialAd;
     ProgressBar mProgressJokeFetch;
@@ -84,10 +84,16 @@ public class MainActivity extends ActionBarActivity {
     }
 
     private void showJoke(){
-        Intent intent = new Intent(getApplicationContext(), sbjr.project.jokesimporter.MainActivity.class);
-        JokeFetcher jokeFetcher = new JokeFetcher(getApplicationContext(),intent,mProgressJokeFetch);
+        JokeFetcher jokeFetcher = new JokeFetcher(mProgressJokeFetch,this);
         jokeFetcher.execute();
     }
 
 
+    @Override
+    public void taskComplete(String s) {
+        Intent intent = new Intent(getApplicationContext(), sbjr.project.jokesimporter.MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.putExtra("Joke",s);
+        startActivity(intent);
+    }
 }

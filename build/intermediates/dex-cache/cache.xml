@@ -124,7 +124,7 @@
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="26b5b13a063db3b7f5866631b5c66808d4a73d34">
+        sha1="444996ded9a7dab806342d7e2950aee9fa235c0c">
         <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/jokesBackend-android-endpoints_e791392ff410ec28f68c1431d4c2e5acb35a9323.jar" />
     </item>
     <item
@@ -223,7 +223,7 @@
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="5dd1b3a24962b5acdffde5f8ebca2bf170e6440f">
+        sha1="b7f9fbbfe9e59580105108814ed36241e7bccf1a">
         <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/jokers_c4762064453c7dd1101cadad53285448bf2de454.jar" />
     </item>
     <item

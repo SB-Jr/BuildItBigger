@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.ProgressBar;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends ActionBarActivity implements AsyncTaskCompleteListener{
 
     private ProgressBar mProgressJokeFetch;
 
@@ -47,10 +47,17 @@ public class MainActivity extends ActionBarActivity {
 
     public void tellJoke(View view){
         //Toast.makeText(this, "derp", Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(getApplicationContext(), sbjr.project.jokesimporter.MainActivity.class);
-        JokeFetcher jokeFetcher = new JokeFetcher(getApplicationContext(),intent,mProgressJokeFetch);
+        JokeFetcher jokeFetcher = new JokeFetcher(mProgressJokeFetch,this);
         jokeFetcher.execute();
     }
 
+
+    @Override
+    public void taskComplete(String s) {
+        Intent intent = new Intent(getApplicationContext(), sbjr.project.jokesimporter.MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.putExtra("Joke",s);
+        startActivity(intent);
+    }
 
 }

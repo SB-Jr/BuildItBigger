@@ -1,21 +1,12 @@
 package com.udacity.gradle.builditbigger;
 
-import android.content.Context;
-import android.content.Intent;
 import android.os.AsyncTask;
-import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.sbjr.myapplication.jokesbackend.myApi.MyApi;
 import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.extensions.android.json.AndroidJsonFactory;
-import com.google.api.client.googleapis.services.AbstractGoogleClientRequest;
-import com.google.api.client.googleapis.services.GoogleClientRequestInitializer;
-
-import java.io.IOException;
 
 /**
  * Created by sbjr on 9/27/16.
@@ -25,13 +16,11 @@ public class JokeFetcher extends AsyncTask<Void, Void, String> {
 
     private static MyApi apiService = null;
     private ProgressBar mProgress;
-    private Context mContext;
-    private Intent mIntent;
+    private AsyncTaskCompleteListener mListener;
 
-    public JokeFetcher(Context context,Intent intent,ProgressBar progressBar) {
+    public JokeFetcher(ProgressBar progressBar,AsyncTaskCompleteListener listener) {
         mProgress = progressBar;
-        mContext = context;
-        mIntent = intent;
+        mListener = listener;
     }
 
     @Override
@@ -67,11 +56,7 @@ public class JokeFetcher extends AsyncTask<Void, Void, String> {
         if(mProgress!=null) {
             mProgress.setVisibility(View.INVISIBLE);
         }
-        if(mIntent!=null) {
-            mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-            mIntent.putExtra("Joke",s);
-            mContext.startActivity(mIntent);
-        }
+        mListener.taskComplete(s);
         super.onPostExecute(s);
     }
 }

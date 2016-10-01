@@ -7,13 +7,19 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import android.widget.ProgressBar;
+
 
 public class MainActivity extends ActionBarActivity {
+
+    private ProgressBar mProgressJokeFetch;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mProgressJokeFetch = (ProgressBar) findViewById(R.id.progress_joke);
+        mProgressJokeFetch.setVisibility(View.INVISIBLE);
     }
 
 
@@ -42,7 +48,8 @@ public class MainActivity extends ActionBarActivity {
     public void tellJoke(View view){
         //Toast.makeText(this, "derp", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(getApplicationContext(), sbjr.project.jokesimporter.MainActivity.class);
-        startActivity(intent);
+        JokeFetcher jokeFetcher = new JokeFetcher(getApplicationContext(),intent,mProgressJokeFetch);
+        jokeFetcher.execute();
     }
 
 

@@ -26,7 +26,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/internal_impl-24.2.1_8a4fbd977b0736a0b2909ce952516bdc017838de.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/internal_impl-24.2.1_8a4fbd977b0736a0b2909ce952516bdc017838de.jar" />
     </item>
     <item
         is-multidex="false"
@@ -35,7 +35,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/com.android.support-support-v4-24.2.1_23b78ea2044c2e67c06f3a27217c42ef6a97dce5.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/com.android.support-support-v4-24.2.1_23b78ea2044c2e67c06f3a27217c42ef6a97dce5.jar" />
     </item>
     <item
         is-multidex="false"
@@ -44,7 +44,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/com.android.support-support-media-compat-24.2.1_3d25d41cc1793b39f708c26d61640e14acaff6bd.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/com.android.support-support-media-compat-24.2.1_3d25d41cc1793b39f708c26d61640e14acaff6bd.jar" />
     </item>
     <item
         is-multidex="false"
@@ -53,7 +53,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="1d086ac5756475ddf451af2e2df6e288d18608ca">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/google-oauth-client-1.20.0_be94c819f700b3aed43219d62e13299619d68f20.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/google-oauth-client-1.20.0_be94c819f700b3aed43219d62e13299619d68f20.jar" />
     </item>
     <item
         is-multidex="false"
@@ -71,7 +71,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="313dc99a7963523871495897ca11aa8472b3c6fd">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/google-http-client-android-1.20.0_afad4fad3b8f2f9a39c64d9a37967a324a200077.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/google-http-client-android-1.20.0_afad4fad3b8f2f9a39c64d9a37967a324a200077.jar" />
     </item>
     <item
         is-multidex="false"
@@ -89,7 +89,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="93d82db2bca534960253f43424b2ba9d7638b4d2">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/google-http-client-1.20.0_7f084eefbbad8ad0b69e10b5e24ee9243d4bd5aa.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/google-http-client-1.20.0_7f084eefbbad8ad0b69e10b5e24ee9243d4bd5aa.jar" />
     </item>
     <item
         is-multidex="false"
@@ -98,7 +98,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="05673179575c32b69a474334255c3044adf18d40">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/google-api-client-android-1.20.0_7bbbe75a9ea1c36cbb03ec7e60948bf1a76dcd23.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/google-api-client-android-1.20.0_7bbbe75a9ea1c36cbb03ec7e60948bf1a76dcd23.jar" />
     </item>
     <item
         is-multidex="false"
@@ -107,7 +107,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="d3e66209ae9e749b2d6833761e7885f60f285564">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/google-api-client-1.20.0_eaa0ac0e833bc4b36aa1ef4d855d9a7e9786c070.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/google-api-client-1.20.0_eaa0ac0e833bc4b36aa1ef4d855d9a7e9786c070.jar" />
     </item>
     <item
         is-multidex="false"
@@ -116,7 +116,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/com.android.support-animated-vector-drawable-24.2.1_9ce0afecfa9462b480c5f75928c549d245bde6d8.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/com.android.support-animated-vector-drawable-24.2.1_9ce0afecfa9462b480c5f75928c549d245bde6d8.jar" />
     </item>
     <item
         is-multidex="false"
@@ -124,8 +124,8 @@
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="b2c59047ab91433e41a5453de0a9362c1e6262c0">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/jokesBackend-android-endpoints_e791392ff410ec28f68c1431d4c2e5acb35a9323.jar" />
+        sha1="26b5b13a063db3b7f5866631b5c66808d4a73d34">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/jokesBackend-android-endpoints_e791392ff410ec28f68c1431d4c2e5acb35a9323.jar" />
     </item>
     <item
         is-multidex="false"
@@ -134,7 +134,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/jackson-core-2.1.3_eb0e019b29abafe0ec21103d81ff3fe13c50d66d.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/jackson-core-2.1.3_eb0e019b29abafe0ec21103d81ff3fe13c50d66d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -143,7 +143,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/internal_impl-24.2.1_fc0068eaa51d083d725c75b24498fffb22caaafb.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/internal_impl-24.2.1_fc0068eaa51d083d725c75b24498fffb22caaafb.jar" />
     </item>
     <item
         is-multidex="false"
@@ -152,7 +152,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="2408070b2abec043624d35b35e30450f1b663858">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/google-http-client-jackson2-1.20.0_cd1d15314c832a6cd2dcf36de6211f276bc29845.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/google-http-client-jackson2-1.20.0_cd1d15314c832a6cd2dcf36de6211f276bc29845.jar" />
     </item>
     <item
         is-multidex="false"
@@ -161,7 +161,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/internal_impl-24.2.1_6eeb0dcbb52706b8b96c9e18bda7d73a1894b491.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/internal_impl-24.2.1_6eeb0dcbb52706b8b96c9e18bda7d73a1894b491.jar" />
     </item>
     <item
         is-multidex="false"
@@ -169,8 +169,8 @@
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="425acd8da8bf64fb9beecd90bdd6aa11f870a1f3">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/Build it Bigger-jokesimporter-unspecified_36ed5d3158247e40ccdd8d666e8397326e29a2d4.jar" />
+        sha1="f601a64cc0e529cc1149c55d207e8ee49e36ba98">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/Build it Bigger-jokesimporter-unspecified_36ed5d3158247e40ccdd8d666e8397326e29a2d4.jar" />
     </item>
     <item
         is-multidex="false"
@@ -179,7 +179,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/support-annotations-24.2.1_169e0257e69e62218b08048c33d8eeb777efdd4d.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/support-annotations-24.2.1_169e0257e69e62218b08048c33d8eeb777efdd4d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -188,7 +188,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/internal_impl-24.2.1_245beda91922cc2598d5aaf06e0e314379dd5343.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/internal_impl-24.2.1_245beda91922cc2598d5aaf06e0e314379dd5343.jar" />
     </item>
     <item
         is-multidex="false"
@@ -206,7 +206,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/guava-jdk5-13.0_164b9e2ddba25e31f8fddaf48850a2f7c56d7de2.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/guava-jdk5-13.0_164b9e2ddba25e31f8fddaf48850a2f7c56d7de2.jar" />
     </item>
     <item
         is-multidex="false"
@@ -215,7 +215,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/com.android.support-support-fragment-24.2.1_bab7ad9773be83987dc25c3859b9c29c7d6f1abe.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/com.android.support-support-fragment-24.2.1_bab7ad9773be83987dc25c3859b9c29c7d6f1abe.jar" />
     </item>
     <item
         is-multidex="false"
@@ -223,8 +223,8 @@
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="04b57bd4569823e35886196f1ff7de5622aae0b7">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/jokers_c4762064453c7dd1101cadad53285448bf2de454.jar" />
+        sha1="5dd1b3a24962b5acdffde5f8ebca2bf170e6440f">
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/jokers_c4762064453c7dd1101cadad53285448bf2de454.jar" />
     </item>
     <item
         is-multidex="false"
@@ -233,7 +233,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/com.android.support-support-core-ui-24.2.1_417c79758de267b6dbc5020b0a2aedf44acfa7bf.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/com.android.support-support-core-ui-24.2.1_417c79758de267b6dbc5020b0a2aedf44acfa7bf.jar" />
     </item>
     <item
         is-multidex="false"
@@ -242,7 +242,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/com.android.support-support-core-utils-24.2.1_02e1f7df272cb3e881b9729179216611c45725a6.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/com.android.support-support-core-utils-24.2.1_02e1f7df272cb3e881b9729179216611c45725a6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -260,7 +260,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/internal_impl-24.2.1_de0129e15a3467c49aaec81fd6a9de6b4be3f0af.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/internal_impl-24.2.1_de0129e15a3467c49aaec81fd6a9de6b4be3f0af.jar" />
     </item>
     <item
         is-multidex="false"
@@ -278,7 +278,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/jsr305-2.0.1_f88b7cbbeb0098d3e6751e64906ef9e8a4a386a3.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/jsr305-2.0.1_f88b7cbbeb0098d3e6751e64906ef9e8a4a386a3.jar" />
     </item>
     <item
         is-multidex="false"
@@ -287,7 +287,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/com.android.support-appcompat-v7-24.2.1_4c93ac36edaf85a9476be08ea80d6b4b47c3c1a2.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/com.android.support-appcompat-v7-24.2.1_4c93ac36edaf85a9476be08ea80d6b4b47c3c1a2.jar" />
     </item>
     <item
         is-multidex="false"
@@ -296,7 +296,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/com.android.support-support-vector-drawable-24.2.1_0dc9a5e87e7329eb54e8225ce95590a221e625d8.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/com.android.support-support-vector-drawable-24.2.1_0dc9a5e87e7329eb54e8225ce95590a221e625d8.jar" />
     </item>
     <item
         is-multidex="false"
@@ -305,7 +305,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/free/debug/com.android.support-support-compat-24.2.1_cf9f9b186a57304dc316d41ff172d8b15f703cb6.jar" />
+        <dex dex="/home/sbjr/myWorkspace/Eclipse_workspace/android/Udacity AND/Build it Bigger/app/build/intermediates/pre-dexed/paid/debug/com.android.support-support-compat-24.2.1_cf9f9b186a57304dc316d41ff172d8b15f703cb6.jar" />
     </item>
 
 </items>

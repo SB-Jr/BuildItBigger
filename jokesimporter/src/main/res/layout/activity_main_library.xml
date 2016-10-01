@@ -17,19 +17,4 @@
         android:layout_height="wrap_content"
         android:text="@string/button_fetch_joke"/>
 
-    <Button
-        android:layout_below="@id/text_joke"
-        android:id="@+id/buton_fetch_jokes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/button_fetch_joke"
-        android:onClick="fetchJokeButtonClick"/>
-
-    <ProgressBar
-        android:id="@+id/progress_fetch_joke"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:visibility="invisible"/>
-
 </RelativeLayout>

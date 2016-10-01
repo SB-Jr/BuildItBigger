@@ -25,21 +25,4 @@ public class ExampleInstrumentedTest {
         assertEquals("sbjr.project.jokesimporter.test", appContext.getPackageName());
     }
 
-    @Test
-    public void fetchTestNotNull() throws Exception{
-
-        JokeFetcher jokeFetcher = new JokeFetcher();
-        String s = jokeFetcher.execute().get();
-        assertNotNull(s);
-    }
-
-    @Test
-    public void fetchTestNotEmpty() throws Exception{
-
-        JokeFetcher jokeFetcher = new JokeFetcher();
-        String s = jokeFetcher.execute().get();
-        assertNotEquals(s,"");
-        Log.d("Test",s);
-    }
-
 }

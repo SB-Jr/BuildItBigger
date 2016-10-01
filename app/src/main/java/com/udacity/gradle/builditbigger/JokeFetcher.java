@@ -1,6 +1,7 @@
-package sbjr.project.jokesimporter;
+package com.udacity.gradle.builditbigger;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.util.Log;
 import android.view.View;
@@ -20,38 +21,40 @@ import java.io.IOException;
  * Created by sbjr on 9/27/16.
  */
 
-public class JokeFetcher extends AsyncTask<Object, Void, String> {
+public class JokeFetcher extends AsyncTask<Void, Void, String> {
 
     private static MyApi apiService = null;
-    private Context context;
-    private TextView mJokeText;
     private ProgressBar mProgress;
+    private Context mContext;
+    private Intent mIntent;
+
+    public JokeFetcher(Context context,Intent intent,ProgressBar progressBar) {
+        mProgress = progressBar;
+        mContext = context;
+        mIntent = intent;
+    }
 
     @Override
-    protected String doInBackground(Object... params) {
-
-        if(params.length==3) {
-            context = (Context) params[0];
-            mJokeText = (TextView) params[1];
-            mProgress = (ProgressBar) params[2];
+    protected void onPreExecute() {
+        super.onPreExecute();
+        if(mProgress!=null) {
+            mProgress.setVisibility(View.VISIBLE);
         }
+    }
+
+    @Override
+    protected String doInBackground(Void... params) {
+
         if(apiService==null) {
             MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(), new AndroidJsonFactory(), null)
-                    .setRootUrl("http://10.0.3.2:8080/_ah/api/")
-                    .setApplicationName("JokesTeller")
-                    .setGoogleClientRequestInitializer(new GoogleClientRequestInitializer() {
-                        @Override
-                        public void initialize(AbstractGoogleClientRequest<?> request) throws IOException {
-                            request.setDisableGZipContent(true);
-                        }
-                    });
+                    .setRootUrl("https://builitbigger-nd.appspot.com/_ah/api/")
+                    .setApplicationName("JokesTeller");
 
             apiService = builder.build();
         }
 
-
         try{
-            return apiService.sayHi("sbjr").execute().getData();
+            return apiService.sayHi().execute().getData();
         }
         catch (Exception e){
             return e.getMessage();
@@ -61,9 +64,13 @@ public class JokeFetcher extends AsyncTask<Object, Void, String> {
 
     @Override
     protected void onPostExecute(String s) {
-        if(mProgress!=null&&mJokeText!=null) {
+        if(mProgress!=null) {
             mProgress.setVisibility(View.INVISIBLE);
-            mJokeText.setText(s);
+        }
+        if(mIntent!=null) {
+            mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            mIntent.putExtra("Joke",s);
+            mContext.startActivity(mIntent);
         }
         super.onPostExecute(s);
     }

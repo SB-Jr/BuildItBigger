@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ProgressBar;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -15,6 +16,7 @@ import com.google.android.gms.ads.InterstitialAd;
 public class MainActivity extends ActionBarActivity {
 
     InterstitialAd mInterstitialAd;
+    ProgressBar mProgressJokeFetch;
 
 
     @Override
@@ -22,6 +24,8 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        mProgressJokeFetch = (ProgressBar) findViewById(R.id.progress_joke);
+        mProgressJokeFetch.setVisibility(View.INVISIBLE);
         mInterstitialAd = new InterstitialAd(this);
         mInterstitialAd.setAdUnitId(getString(R.string.interstetial_ad_unit_id));
         mInterstitialAd.setAdListener(new AdListener() {
@@ -31,8 +35,7 @@ public class MainActivity extends ActionBarActivity {
 
                 getInterstitialAd();
 
-                Intent intent = new Intent(getApplicationContext(), sbjr.project.jokesimporter.MainActivity.class);
-                startActivity(intent);
+                showJoke();
             }
         });
 
@@ -69,8 +72,7 @@ public class MainActivity extends ActionBarActivity {
             mInterstitialAd.show();
         }
         else {
-            Intent intent = new Intent(getApplicationContext(), sbjr.project.jokesimporter.MainActivity.class);
-            startActivity(intent);
+            showJoke();
         }
     }
 
@@ -79,6 +81,12 @@ public class MainActivity extends ActionBarActivity {
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
                 .build();
         mInterstitialAd.loadAd(adRequest);
+    }
+
+    private void showJoke(){
+        Intent intent = new Intent(getApplicationContext(), sbjr.project.jokesimporter.MainActivity.class);
+        JokeFetcher jokeFetcher = new JokeFetcher(getApplicationContext(),intent,mProgressJokeFetch);
+        jokeFetcher.execute();
     }
 
 

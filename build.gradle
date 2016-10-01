@@ -20,7 +20,11 @@ allprojects {
 
 
 //task to automatically start the backend locally and test and shut it down
-task testAll(dependsOn: [":jokesBackend:appengineRun",
-    ":app:ApplicationTest",
-    "jokesBackend:appengineStop"]
-)
+task testAll {
+    dependsOn = [":jokesBackend:appengineRun",
+     ":app:connectedAndroidTest",
+     "jokesBackend:appengineStop"]
+    doLast{
+        println "Done Testing"
+    }
+}
